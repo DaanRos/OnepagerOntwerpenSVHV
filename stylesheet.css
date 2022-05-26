@@ -1,0 +1,93 @@
+body{
+    min-height:100vh;
+    min-width:100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-image: linear-gradient(to top, #483f73, #26252c, #483f73);
+}
+header{
+    background-image: linear-gradient(to top, #483f73, #26252c);
+    margin:0;
+    text-align: center;
+    top: 0;
+
+}
+
+
+nav, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width:100%;
+    background-color: #292929;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-size: 1em;
+    font-family: "Trebuchet MS", sans-serif;
+    display: block;
+    color: #c1c0bc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#783e8c;
+}
+
+main{
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+}
+article{
+    align-content: center;
+    background-color: #3e3e3e ;
+    color: #c1c0bc;
+    padding: 0;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+ article h2{
+     color:#ffaa00;
+    text-align:center;
+    font-size: 2.3em;
+    font-family: 'Times New Roman', serif;
+     font-weight: normal;
+}
+ article p{
+     padding:10px;
+     font-size: 1.5em;
+     font-family: 'Trebuchet MS', serif;
+ }
+article p a, article p a:visited{
+   text-decoration:none;
+    color:#bb5add;
+}
+article p a:hover{
+    text-decoration:none;
+    color:#c276dc;
+
+}
+.gallery img{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    object-fit: contain;
+}
+.gallery p{
+    text-align: center;
+}
